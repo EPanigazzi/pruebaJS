@@ -1,0 +1,156 @@
+/* btn-voler */
+.btn-volver button {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1em;
+    padding: 10px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: background 1s, color 1s;
+}
+.btn-volver button:hover {
+    background-color: rgb(11 97 204);
+    border-radius: 5px;
+    color: white;
+}
+.btn-volver i {
+    font-size: 2em;
+    margin-right: 20px;
+}
+.btn-volver a {
+    text-decoration: none;
+}
+
+/* detalles-enfermedad */
+.detalles-title h1 {
+    text-align: center;
+    margin: 30px 0px;
+}
+.img-text-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.img-text-content div {
+    box-sizing: border-box;
+    width: calc(50% - 6em);
+}
+.img-text-content img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+/* form */
+.detail-subtitle {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 50px 0px;
+    margin-top: 20px;
+}
+.form-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.form-left {
+    width: 51%;
+}
+.form-left h4 {
+    padding: 40px 0px 20px 0px;
+}
+.form-left-text {
+    font-size: 1.5em;
+}
+.form-img img {
+    width: 250px;
+    padding: 20px 40px 30px 0px;
+}
+.form-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.form-label {
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.input-100,
+.input-50 {
+    padding: 10px;
+    margin-top: 15px;
+    width: 100%;
+    border-radius: 5px;
+    background: #c2d5ecbd;
+    border: none;
+}
+
+.form-gender span {
+    display: block;
+}
+.form-right form [type="radio"] {
+    margin-left: 8px;
+    margin-right: 4px;
+}
+
+
+
+.boton-enviar {
+    padding: 20px;
+    margin: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 3px solid #ef0000f7;
+    background: none;
+    color: black;
+    font-weight: 500;
+    font-size: 1.3em;
+    cursor: pointer;
+    transition: background 1s, color 1s;
+}
+.boton-enviar:hover {
+    background: #ef0000f7;
+    color: white;
+}
+.text-form {
+    margin: 30px 0px 10px 0;
+    font-weight: 500;
+}
+
+/* medidas de precaucion */
+.precauciones-primer-fila div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.precauciones-primer-fila img {
+    width: 200px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+/* hospital */
+.two-col{
+    width: calc(50% - 1em);
+}
+
+.two-col h4 {
+    padding: 30px 0px;
+    font-weight: 500;
+}
+
+.hospital-datos li {
+    list-style: none;
+    font-size: 1.7em;
+    padding: 15px 0px;
+}
+.hospital-datos li i {
+    margin-right: 20px;
+    color: #04026d;
+    font-size: 1.5em;
+}
+
+

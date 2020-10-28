@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>FAMEDIC - Servicios de salud</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/index.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+            integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+            crossorigin="anonymous"
+        />
+        <link
+            rel="icon"
+            href="img/logo-favicon.png"
+            type="image/png"
+            sizes="16x16"
+        />
+    </head>
+    <body>
+        <header id="inicio" class="header-content">
+            <div>
+                <img
+                    src="./img/logo-blanco.png"
+                    alt="logo-web"
+                    class="header-img"
+                />
+                <input
+                    list="search"
+                    placeholder="Ingrese la enfermedad..."
+                    autofocus
+                    autocomplete="off"
+                />
+                <datalist id="search">
+                    <option value="Coronavirus"></option>
+                    <option value="Resfriado com&uacute;n"></option>
+                    <option value="Influenza"></option>
+                    <option value="Sarampi&oacute;n"></option>
+                    <option value="Varicela"></option>
+                </datalist>
+
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </div>
+        </header>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="/index.html">HOME</a></li>
+                <li><a href="/listado-enfermedades.html">ENFERMEDADES</a></li>
+                <li><a href="vacunas.html">VACUNACI&oacute;N</a></li>
+                <li><a href="/mapa.html">HOSPITALES</a></li>
+                <li><a href="/contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+        <main class="container-fluid">
+            <section class="slider-content">
+                <img src="./img/slider-principal.png" alt="covid" />
+            </section>
+            <section class="pastilla-title">
+                <h1>FAMADEIC</h1>
+                <h4>Servicios de salud integral</h4>
+            </section>
+            <section class="pastillas-content">
+                <article>
+                    <div>
+                        <a href="mapa.html"
+                            ><img
+                                src="./img/hospital-icon.png"
+                                alt="hospitales-icon"
+                                class="pastillas-img"
+                        /></a>
+                    </div>
+                    <div class="pastillas-link-content">
+                        <a href="mapa.html" class="pastillas-link"
+                            >Hospitales</a
+                        >
+                    </div>
+                </article>
+                <article>
+                    <div>
+                        <a href="listado-enfermedades.html"
+                            ><img
+                                src="./img/enfermedad-icon-new.png"
+                                alt="enfermedad-icon"
+                                class="pastillas-img"
+                        /></a>
+                    </div>
+                    <div class="pastillas-link-content">
+                        <a
+                            href="listado-enfermedades.html"
+                            class="pastillas-link"
+                            >Enfermedades</a
+                        >
+                    </div>
+                </article>
+                <article>
+                    <div>
+                        <a href="vacunas.html"
+                            ><img
+                                src="./img/vacuna-icon.png"
+                                alt="vacunas-icon"
+                                class="pastillas-img"
+                        /></a>
+                    </div>
+                    <div class="pastillas-link-content">
+                        <a href="vacunas.html" class="pastillas-link"
+                            >Vacunas</a
+                        >
+                    </div>
+                </article>
+            </section>
+            <aside class="banner-tel-content">
+                <div class="banner-left">
+                    <p>Si ten&eacute;s sintomas de COVID-19</p>
+                    <h2>llam&aacute; al</h2>
+                </div>
+                <div class="banner-right">
+                    <i class="fas fa-phone-alt"><span> 148</span></i>
+                </div>
+            </aside>
+            <a href="#inicio" class="arriba"></a>
+        </main>
+        <footer>
+            <div class="footer-content">
+                <div class="footer-left">
+                    <h5 class="footer-title">Datos del Grupo</h5>
+                    <p>Ezequiel Panigazzi - 38.695.636</p>
+                    <p>Lucas Zacarias - 42.436.419</p>
+                    <p>Julian Castro - 39.347.169</p>
+                </div>
+                <div class="footer-center">
+                    <h5 class="footer-title">Nombre inferior</h5>
+                    <ul>
+                        <li>
+                            <a href="listado-enfermedades.html">Enfermedades</a>
+                        </li>
+                        <li><a href="vacunas.html">Vacunas</a></li>
+                        <li>
+                            <a href="mapa.html">Hospitales</a>
+                        </li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-right">
+                    <h5 class="footer-title">Redes Sociales</h5>
+                    <div>
+                        <a href="https://www.facebook.com/" target="_blank"
+                            ><i class="fab fa-facebook"></i
+                        ></a>
+                        <a href="https://www.instagram.com/" target="_blank"
+                            ><i class="fab fa-instagram"></i
+                        ></a>
+                        <a href="https://www.twitter.com/" target="_blank"
+                            ><i class="fab fa-twitter"></i
+                        ></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

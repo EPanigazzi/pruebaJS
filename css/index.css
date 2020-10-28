@@ -1,0 +1,82 @@
+
+/* slider */
+.slider-content{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+/* pastillas */
+.pastilla-title{
+    text-align: center;
+    padding: 30px;
+    margin-top: 40px;
+}
+.pastilla-title h1{
+    font-size: 6em;
+    font-weight: 600;
+}
+
+.pastillas-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50vh;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+.pastillas-content article {
+    width: 16%;
+    text-align: center;
+    box-sizing: border-box;
+}
+.pastillas-img{
+    width: 100%;
+    cursor: pointer;
+}
+.pastillas-link-content{
+    margin-top: 50px;
+}
+.pastillas-link{
+    text-decoration: none;
+    border: 3px solid rgb(2 50 109);
+    padding: 10px 50px;
+    font-size: 1em;
+    font-weight: 600;
+    margin-top: 50px;
+    border-radius: 4%;
+    color: black;
+    transition: background 1s;
+}
+.pastillas-link:hover{
+    background: rgb(2 50 109);
+    color: white;
+}
+
+/* banner telefono */
+.banner-tel-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background:rgb(117 124 246);
+    padding: 30px;
+    margin-top: 30px;
+    font-size: 1.5em;
+    flex-wrap: wrap;
+}
+.banner-left{
+    font-size: 1.5em;
+}
+.banner-left h2{
+    font-size: 3em;
+}
+.banner-right{
+    font-size: 7em;
+    text-align: center;
+}
+.banner-right span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1em;
+    font-weight: 700;
+}

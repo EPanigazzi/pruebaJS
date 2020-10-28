@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 2.6em;
+    text-transform: uppercase;
+}
+h3 {
+    font-size: 2.3em;
+    text-transform: uppercase;
+}
+h4 {
+    font-size: 2em;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+h5 {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+p {
+    font-size: 1em;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+.container-fluid {
+    width: 100%;
+    margin: auto;
+}
+
+/* header */
+.header-content {
+    background-color: rgb(11 97 204);
+    padding: 20px;
+}
+
+.header-content div {
+    display: flex;
+    justify-content: center;
+}
+.header-content div img {
+    margin-right: 8%;
+    width: 4%;
+}
+.header-content div input {
+    margin-right: 1%;
+    width: 70%;
+    border: none;
+    opacity: 0.7;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+.header-content div button {
+    font-size: 1.3em;
+    padding: 1%;
+    background-color: rgb(30 65 109);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+/* nav-bar */
+.nav-bar ul {
+    display: flex;
+    justify-content: center;
+    background-color: #1e416d;
+    flex-wrap: wrap;
+}
+.nav-bar ul li {
+    list-style: none;
+    text-transform: uppercase;
+    width: 12%;
+    padding: 15px 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.nav-bar ul li a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.2em;
+    color: white;
+}
+.nav-bar ul li:hover {
+    font-weight: 700;
+    border-bottom: 6px solid white;
+}
+.nav-bar ul li a:hover {
+    color: rgb(207, 204, 204);
+}
+
+/* btn-arriba */
+.arriba {
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(11 97 204);
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 50%;
+    background-image: url(../img/flecha.png);
+    background-size: cover;
+    border: none;
+    opacity: 0.7;
+}
+.arriba:hover {
+    background-color: rgb(11 97 204);
+    background-image: url(../img/flecha.png);
+    background-size: cover;
+    opacity: 1;
+    border: none;
+}
+
+/*mapa de google*/
+main figure iframe {
+    padding: 5px 0px;
+    border-radius: 20px;
+    opacity: 0.3;
+    width: 100%;
+    height: 600px;
+}
+
+main figure iframe:hover {
+    opacity: 1;
+    -webkit-box-shadow: 0px 66px 100px -20px rgba(0, 0, 0, 0.56);
+    -moz-box-shadow: 0px 66px 100px -20px rgba(0, 0, 0, 0.56);
+    box-shadow: 0px 66px 100px -20px rgba(0, 0, 0, 0.56);
+}
+
+/* contenedor padre-hijo imagenes */
+.img-text-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.two-col {
+    width: calc(50% - 6em);
+    box-sizing: border-box;
+}
+
+/* footer */
+.footer-content {
+    background-color: rgb(2 50 109);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+    margin-top: 50px;
+}
+
+.footer-title {
+    margin-bottom: 20px;
+}
+
+.footer-content ul {
+    list-style: none;
+}
+.footer-content ul li a {
+    text-decoration: none;
+    color: white;
+}
+.footer-content ul li a:hover {
+    font-size: 1.1em;
+    font-weight: 500;
+}
+.footer-right h4 {
+    margin-bottom: 20px;
+}
+.footer-right div a {
+    text-decoration: none;
+    font-size: 2em;
+    margin-right: 10px;
+    color: white;
+    cursor: pointer;
+}
+.footer-right div a:hover {
+    color: rgb(197, 181, 181);
+}
+
+.ocultar {
+    display: none;
+}
+

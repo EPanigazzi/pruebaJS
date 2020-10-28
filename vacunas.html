@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/vacunas.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+            integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+            crossorigin="anonymous"
+        />
+        <link
+            rel="icon"
+            href="img/logo-favicon.png"
+            type="image/png"
+            sizes="16x16"
+        />
+        <meta charset="UTF-8" />
+        <title>FAMEDIC - Vacunaci&oacute;n</title>
+    </head>
+    <body>
+        <header id="inicio" class="header-content">
+            <div>
+                <img
+                    src="./img/logo-blanco.png"
+                    alt="logo-web"
+                    class="header-img"
+                />
+                <input
+                    list="search"
+                    placeholder="Ingrese la enfermedad..."
+                    autofocus
+                    autocomplete="off"
+                />
+                <datalist id="search">
+                    <option value="Coronavirus"></option>
+                    <option value="Resfriado com&uacute;n"></option>
+                    <option value="Influenza"></option>
+                    <option value="Sarampi&oacute;n"></option>
+                    <option value="Varicela"></option>
+                </datalist>
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </div>
+        </header>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="/index.html">HOME</a></li>
+                <li><a href="/listado-enfermedades.html">ENFERMEDADES</a></li>
+                <li><a href="/vacunas.html">VACUNACI&oacute;N</a></li>
+                <li><a href="/mapa.html">HOSPITALES</a></li>
+                <li><a href="/contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+        <main class="container">
+            <h2>CENTRO DE VACUNACI&oacute;N</h2>
+            <section class="img-text-content">
+                <article class="two-col">
+                    <img src="img/vacunas.jpg" alt="vacunas" />
+                </article>
+                <article class="two-col">
+                    <p>
+                        Las vacunas se utilizan para reforzar el sistema
+                        inmunitario y prevenir enfermedades graves y
+                        potencialmente mortales. Las vacunas le "enseñan" al
+                        cuerpo cómo defenderse cuando microorganismos, como
+                        virus o bacterias lo invaden:
+                    </p>
+                    <ul class="vacunacion-info">
+                        <li>
+                            Las vacunas lo exponen a una cantidad muy pequeña y
+                            muy segura de virus o bacterias que han sido
+                            debilitados o destruidos.
+                        </li>
+                        <li>
+                            Su sistema inmunitario aprende luego a reconocer y
+                            atacar la infección si está expuesto a ella
+                            posteriormente en su vida.
+                        </li>
+                        <li>
+                            Como resultado de esto, usted no se enfermará o
+                            puede tener una infección más leve. Esta es una
+                            forma natural de hacerle frente a las enfermedades
+                            infecciosas.
+                        </li>
+                    </ul>
+                </article>
+            </section>
+            <hr />
+            <h3 class="centro-title">HOSPITALES CON CENTRO DE VACUNACI&oacute;N</h3>
+            <section class="img-text-content">
+                <article class="two-col">
+                    <div>
+                        <h4 class="maps-text">HOSPITAL POSADAS</h4>
+                        <figure>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.968046608558!2d-58.57751328422819!3d-34.63024776641048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb80b7396b9af%3A0xef2dc611cc3efabb!2sPosadas!5e0!3m2!1ses!2sar!4v1601948375466!5m2!1ses!2sar"
+                                width="400"
+                                height="300"
+                                frameborder="0"
+                                style="border: 0"
+                                allowfullscreen=""
+                                aria-hidden="false"
+                                tabindex="0"
+                                class="map-two-col"
+                            ></iframe>
+                        </figure>
+                    </div>
+                    <div>
+                        <h4 class="maps-text">HOSPITAL GARRAHAN</h4>
+                        <figure>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.9448372704087!2d-58.39553738422827!3d-34.63083426644145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb232d430041%3A0xb914ae1d2c269fcc!2sHospital%20Garrahan!5e0!3m2!1ses!2sar!4v1601948442862!5m2!1ses!2sar"
+                                width="400"
+                                height="300"
+                                frameborder="0"
+                                style="border: 0"
+                                allowfullscreen=""
+                                aria-hidden="false"
+                                tabindex="0"
+                                class="map-two-col"
+                            ></iframe>
+                        </figure>
+                    </div>
+                </article>
+                <article class="two-col">
+                    <div>
+                        <h4 class="maps-text">HOSPITAL GÜEMES</h4>
+                        <figure>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.5022356150166!2d-58.58004739293448!3d-34.64201714837721!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc78db3e4795f%3A0xecc26283f094d400!2sHospital%20Guemes%20Anexo%20Universidad%20De%20Moron!5e0!3m2!1ses!2sar!4v1601948512711!5m2!1ses!2sar"
+                                frameborder="0"
+                                style="border: 0"
+                                allowfullscreen=""
+                                aria-hidden="false"
+                                tabindex="0"
+                                class="map-two-col"
+                            ></iframe>
+                        </figure>
+                    </div>
+                    <div>
+                        <h4 class="maps-text">HOSPITAL ITALIANO</h4>
+                        <figure>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.3479477760725!2d-58.56738204583766!3d-34.67116681784048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x78f6eab9f8572beb!2sHospital%20Italiano%20de%20San%20Justo%20Agust%C3%ADn%20Rocca!5e0!3m2!1ses!2sar!4v1601948584854!5m2!1ses!2sar"
+                                width="400"
+                                height="300"
+                                frameborder="0"
+                                style="border: 0"
+                                allowfullscreen=""
+                                aria-hidden="false"
+                                tabindex="0"
+                                class="map-two-col"
+                            ></iframe>
+                        </figure>
+                    </div>
+                </article>
+            </section>
+            <a href="#inicio" class="arriba"></a>
+        </main>
+        <footer>
+            <div class="footer-content">
+                <div class="footer-left">
+                    <h5 class="footer-title">Datos del Grupo</h5>
+                    <p>Ezequiel Panigazzi - 38.695.636</p>
+                    <p>Lucas Zacarias - 42.436.419</p>
+                    <p>Julian Castro - 39.347.169</p>
+                </div>
+                <div class="footer-center">
+                    <h5 class="footer-title">Nombre inferior</h5>
+                    <ul>
+                        <li>
+                            <a href="listado-enfermedades.html">Enfermedades</a>
+                        </li>
+                        <li><a href="vacunas.html">Vacunas</a></li>
+                        <li>
+                            <a href="mapa.html">Hospitales</a>
+                        </li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-right">
+                    <h5 class="footer-title">Redes Sociales</h5>
+                    <div>
+                        <a href="https://www.facebook.com/" target="_blank"
+                            ><i class="fab fa-facebook"></i
+                        ></a>
+                        <a href="https://www.instagram.com/" target="_blank"
+                            ><i class="fab fa-instagram"></i
+                        ></a>
+                        <a href="https://www.twitter.com/" target="_blank"
+                            ><i class="fab fa-twitter"></i
+                        ></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
