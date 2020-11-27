@@ -1,0 +1,23 @@
+{
+  "name": "pruebajs",
+  "version": "1.0.0",
+  "description": "pruebas unitarias",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EPanigazzi/pruebaJS.git"
+  },
+  "author": "ezequiel panigazzi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EPanigazzi/pruebaJS/issues"
+  },
+  "homepage": "https://github.com/EPanigazzi/pruebaJS#readme",
+  "devDependencies": {
+    "cypress": "^6.0.0"
+  }
+}
